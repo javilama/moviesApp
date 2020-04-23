@@ -1,0 +1,21 @@
+body{
+    background-image: url('../images/back4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+div.card {
+
+    width: 20rem  !important;
+    
+}
+p.card-text{
+    font-family: "verdana";
+    text-align: justify ;
+}
+.card-title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; 
+    
+}

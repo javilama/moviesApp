@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  color: #291f4c;
+}
+
+#menu {
+  padding-top: 20px;
+  position: fixed;
+  width: 115px;
+  height: 100%;
+  background-color: #291f4c;
+  color: #ffffff;
+  z-index: 100;
+
+  /*	transition: all .4s ease;*/
+}
+/*#menu:hover{
+	width: 200px;
+}*/
+#menu h3 {
+  margin-left: 10px;
+}
+
+#wraper-list {
+  padding-top: 60px;
+  margin: 0px;
+}
+.action {
+  padding-top: 5px;
+}
+.action a {
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none !important;
+  width: 60px;
+  transition: all 0.4s ease;
+}
+.action a:hover {
+  background-color: #957d79;
+  color: #291f4c;
+  padding: 10px 50px;
+}
+.drama {
+  padding-top: 30px;
+}
+.drama a {
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none !important;
+  width: 60px;
+  transition: all 0.4s ease;
+}
+.drama a:hover {
+  background-color: #957d79;
+  color: #291f4c;
+  padding: 10px 50px;
+}
+.comedy {
+  padding-top: 30px;
+}
+.comedy a {
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none !important;
+  width: 60px;
+  transition: all 0.4s ease;
+}
+.comedy a:hover {
+  background-color: #957d79;
+  color: #291f4c;
+  padding: 10px 50px;
+}
+.infantil {
+  padding-top: 30px;
+}
+.infantil a {
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none !important;
+  width: 60px;
+  transition: all 0.4s ease;
+}
+.infantil a:hover {
+  background-color: #957d79;
+  color: #291f4c;
+  padding: 10px 50px;
+}
