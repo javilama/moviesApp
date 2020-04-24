@@ -6,7 +6,7 @@ export const header = () => {
       
 
          
-        <div id="text">
+        <div id="text" className="container my-3 " >
             <h1>Movies</h1>
         </div>
        

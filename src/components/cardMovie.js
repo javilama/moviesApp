@@ -1,9 +1,11 @@
 import React from 'react'
 import image from '../images/imgCard.jpg'
 import './cardMovie.css'
+
+const URL = 'https://image.tmdb.org/t/p/w500'
 export const cardMovie = (props) => {
     let { title, description, img, id } = props
-    console.log(props);
+    // console.log(props);
     return (
 
         
@@ -11,7 +13,7 @@ export const cardMovie = (props) => {
                 <div className="row"  >
                     <div className="col col-md-6 " >
                         <div className="card" >
-                            <img src={image} className="card-img card-img-top" alt="..." />
+                            <img src={URL+img} className="card-img card-img-top" alt="..." />
 
 
                             {/* <input type="checkbox"  
